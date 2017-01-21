@@ -10,18 +10,16 @@
 
 # Name of the ROM. No Spaces Please.
 # Example: CyanogenMod
-name=AOSP
+name=DU
 
 
 # Manifest link. https:// is mandatory.
 # Example: https://github.com/cyanogenmod/android
-manifest=https://android.googlesource.com/platform/manifest
-
+manifest=https://github.com/DirtyUnicorns/android_manifest
 
 # Manifest branch.
 # Example: cm-14.0
-branch=android-4.4.4_r2.0.1
-
+branch=n
 
 ### Finally, execute the stuff. ###
 /bin/bash skadoo.sh $name $manifest $branch
